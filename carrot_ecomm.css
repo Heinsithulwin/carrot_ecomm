@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.navbar_1{
+    display: flex;
+    align-items:center;
+    justify-content: space-between; 
+}
+.navbar_search{
+    border: 1px solid aquamarine;
+    outline-color: aquamarine;
+    padding: 10px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: darkblue;
+}
+input::placeholder{
+    color: darkblue;
+
+}
+.navbar_select{
+    padding: 10px;
+    border: 1px solid  aquamarine;
+    outline-color: aquamarine;
+
+}
+.hero_section{
+    background-image: url(https://maraviyainfotech.com/projects/carrot/carrot-v11/carrot-html/assets/img/banner/banner-2.jpg);
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
